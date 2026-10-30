@@ -266,67 +266,80 @@ require_once __DIR__ . '/identity.php';
 
                     
                     <article class="portfolio-item" data-category="ai">
-                        <div class="portfolio-content">
-                            <div class="portfolio-tag">Artificial Intelligence</div>
-                            <h3 class="portfolio-title">
-                                <a href="https://github.com/SidikYaeger/Roleplay-AI" target="_blank" rel="noopener noreferrer">Roleplay-AI (Aether) &nearr;</a>
-                            </h3>
-                            <p class="portfolio-desc">
-                                Interactive AI character roleplay web platform with custom character creation (personality, scenario, avatar), real-time typewriter response streaming powered by LLMs (Gemini &amp; Nvidia API), and long-term dialogue memory.
-                            </p>
-                            <div class="portfolio-tech">
-                                <span class="portfolio-tech-tag">Python</span>
-                                <span class="portfolio-tech-tag">Gemini API</span>
-                                <span class="portfolio-tech-tag">JavaScript</span>
-                                <span class="portfolio-tech-tag">LLM Streaming</span>
+                        <div class="portfolio-card-grid">
+                            <div class="portfolio-thumb-wrap">
+                                <img src="assets/aether.png" alt="Aether AI Logo" class="portfolio-thumb-img" loading="lazy">
                             </div>
-                            <a href="https://github.com/SidikYaeger/Roleplay-AI" target="_blank" rel="noopener noreferrer" class="portfolio-repo-link">
-                                View on GitHub &rarr;
-                            </a>
+                            <div class="portfolio-content">
+                                <div class="portfolio-tag">Artificial Intelligence</div>
+                                <h3 class="portfolio-title">
+                                    <a href="https://github.com/SidikYaeger/Roleplay-AI" target="_blank" rel="noopener noreferrer">Aether AI &nearr;</a>
+                                </h3>
+                                <p class="portfolio-desc">
+                                    Interactive AI character roleplay web platform with custom character creation (personality, scenario, avatar), real-time typewriter response streaming powered by LLMs (Gemini &amp; Nvidia API), and long-term dialogue memory.
+                                </p>
+                                <div class="portfolio-tech">
+                                    <span class="portfolio-tech-tag">Python</span>
+                                    <span class="portfolio-tech-tag">Gemini API</span>
+                                    <span class="portfolio-tech-tag">JavaScript</span>
+                                    <span class="portfolio-tech-tag">LLM Streaming</span>
+                                </div>
+                                <a href="https://github.com/SidikYaeger/Roleplay-AI" target="_blank" rel="noopener noreferrer" class="portfolio-repo-link">
+                                    View on GitHub &rarr;
+                                </a>
+                            </div>
                         </div>
                     </article>
 
-                    
                     <article class="portfolio-item" data-category="web">
-                        <div class="portfolio-content">
-                            <div class="portfolio-tag">Productivity &amp; Web</div>
-                            <h3 class="portfolio-title">
-                                <a href="https://github.com/SidikYaeger/Campus-Companion" target="_blank" rel="noopener noreferrer">Campus Companion &nearr;</a>
-                            </h3>
-                            <p class="portfolio-desc">
-                                Full-stack student productivity application for managing courses, assignments, weekly schedules, deadlines, and calendar activities with per-user authentication and isolated academic data storage.
-                            </p>
-                            <div class="portfolio-tech">
-                                <span class="portfolio-tech-tag">Full-Stack</span>
-                                <span class="portfolio-tech-tag">Course &amp; Task Management</span>
-                                <span class="portfolio-tech-tag">Authentication</span>
-                                <span class="portfolio-tech-tag">REST API</span>
+                        <div class="portfolio-card-grid">
+                            <div class="portfolio-thumb-wrap">
+                                <img src="assets/campus-companion.jpg" alt="Campus Companion Logo" class="portfolio-thumb-img" loading="lazy">
                             </div>
-                            <a href="https://github.com/SidikYaeger/Campus-Companion" target="_blank" rel="noopener noreferrer" class="portfolio-repo-link">
-                                View on GitHub &rarr;
-                            </a>
+                            <div class="portfolio-content">
+                                <div class="portfolio-tag">Productivity &amp; Web</div>
+                                <h3 class="portfolio-title">
+                                    <a href="https://github.com/SidikYaeger/Campus-Companion" target="_blank" rel="noopener noreferrer">Campus Companion &nearr;</a>
+                                </h3>
+                                <p class="portfolio-desc">
+                                    Full-stack student productivity application for managing courses, assignments, weekly schedules, deadlines, and calendar activities with per-user authentication and isolated academic data storage.
+                                </p>
+                                <div class="portfolio-tech">
+                                    <span class="portfolio-tech-tag">Full-Stack</span>
+                                    <span class="portfolio-tech-tag">Course &amp; Task Management</span>
+                                    <span class="portfolio-tech-tag">Authentication</span>
+                                    <span class="portfolio-tech-tag">REST API</span>
+                                </div>
+                                <a href="https://github.com/SidikYaeger/Campus-Companion" target="_blank" rel="noopener noreferrer" class="portfolio-repo-link">
+                                    View on GitHub &rarr;
+                                </a>
+                            </div>
                         </div>
                     </article>
 
-                    
                     <article class="portfolio-item" data-category="security">
-                        <div class="portfolio-content">
-                            <div class="portfolio-tag">Security &amp; Networking</div>
-                            <h3 class="portfolio-title">
-                                <a href="https://github.com/SidikYaeger/NEScan" target="_blank" rel="noopener noreferrer">NEScan &nearr;</a>
-                            </h3>
-                            <p class="portfolio-desc">
-                                Lightweight, fast, and efficient network scanning and reconnaissance utility designed for discovering active network devices, open ports, and potential vulnerabilities.
-                            </p>
-                            <div class="portfolio-tech">
-                                <span class="portfolio-tech-tag">Python</span>
-                                <span class="portfolio-tech-tag">Network Scanning</span>
-                                <span class="portfolio-tech-tag">Port Scanner</span>
-                                <span class="portfolio-tech-tag">Security Recon</span>
+                        <div class="portfolio-card-grid">
+                            <div class="portfolio-thumb-wrap">
+                                <img src="assets/nescan.jpg" alt="NEScan Logo" class="portfolio-thumb-img" loading="lazy">
                             </div>
-                            <a href="https://github.com/SidikYaeger/NEScan" target="_blank" rel="noopener noreferrer" class="portfolio-repo-link">
-                                View on GitHub &rarr;
-                            </a>
+                            <div class="portfolio-content">
+                                <div class="portfolio-tag">Security &amp; Networking</div>
+                                <h3 class="portfolio-title">
+                                    <a href="https://github.com/SidikYaeger/NEScan" target="_blank" rel="noopener noreferrer">NEScan &nearr;</a>
+                                </h3>
+                                <p class="portfolio-desc">
+                                    Lightweight, fast, and efficient network scanning and reconnaissance utility designed for discovering active network devices, open ports, and potential vulnerabilities.
+                                </p>
+                                <div class="portfolio-tech">
+                                    <span class="portfolio-tech-tag">Python</span>
+                                    <span class="portfolio-tech-tag">Network Scanning</span>
+                                    <span class="portfolio-tech-tag">Port Scanner</span>
+                                    <span class="portfolio-tech-tag">Security Recon</span>
+                                </div>
+                                <a href="https://github.com/SidikYaeger/NEScan" target="_blank" rel="noopener noreferrer" class="portfolio-repo-link">
+                                    View on GitHub &rarr;
+                                </a>
+                            </div>
                         </div>
                     </article>
                 </div>
