@@ -1,14 +1,4 @@
-/**
- * Personal Page JavaScript — Zhafir Muhammad Tectona Grandito
- * Interactions:
- * 1. Mobile navigation toggle & backdrop
- * 2. Header scrolled blur state
- * 3. Scrollspy active link indicator
- * 4. Portfolio category filter
- */
-
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Header scroll effect
     const header = document.querySelector('.nav-header');
     const updateHeader = () => {
         header?.classList.toggle('scrolled', window.scrollY > 40);
@@ -16,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', updateHeader, { passive: true });
     updateHeader();
 
-    // 2. Mobile Navigation Toggle & Auto-close on link click
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('.nav-menu');
     const navOverlay = document.querySelector('.nav-overlay');
@@ -39,7 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target.matches('a')) toggleMenu(true);
     });
 
-    // 3. Scrollspy (Active nav link on scroll)
     const sections = document.querySelectorAll('section[id], header[id]');
     const menuLinks = document.querySelectorAll('.nav-menu .nav-link');
 
@@ -56,7 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     sections.forEach(section => sectionObserver.observe(section));
 
-    // 4. Portfolio Filter
     const filterBtns = document.querySelectorAll('.filter-btn');
     const portfolioCards = document.querySelectorAll('.portfolio-item');
 
@@ -74,6 +61,19 @@ document.addEventListener('DOMContentLoaded', () => {
                     card.style.display = match ? '' : 'none';
                 });
             });
+        });
+    }
+
+    const reloadFrameBtn = document.getElementById('reloadFrameBtn');
+    const inlineIframe = document.getElementById('shoutboxInlineIframe');
+
+    if (reloadFrameBtn && inlineIframe) {
+        reloadFrameBtn.addEventListener('click', () => {
+            try {
+                inlineIframe.contentWindow.location.reload();
+            } catch (err) {
+                inlineIframe.src = inlineIframe.src;
+            }
         });
     }
 });
